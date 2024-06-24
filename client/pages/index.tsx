@@ -13,7 +13,7 @@ const Calculator: NextPage = () => {
 	const [counter, setCounter] = useState("0")
 	const [firstNum,setFirstNum] = useState("0");
 	const [secondNum,setSecondNum] = useState("0");
-	const contractAddress = "0x6795F2FdE4ED377bC38414b3B1Cfa9bb2c06eE5e"
+	const contractAddress = "{YOUR_CONTRACT_ADDRESS}"
 	const { contract } = useContract(contractAddress)
 	const sdk = useSDK()
 
